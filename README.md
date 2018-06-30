@@ -1,21 +1,18 @@
-# jake
+# JJSOFT 
 
-> A Vue.js project
+> Hapi + Vue.js project
 
-## Build Setup
+## Build 
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
+# build for front-end side with Webpack
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# build for back-end side with Typescript
+tsc
+
+# start hapi server at localhost:3000
+node ./dist/index.js
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![screenshot1](https://user-images.githubusercontent.com/38565667/42122613-b8e336ee-7c87-11e8-8001-d7722ff1db5e.PNG)
