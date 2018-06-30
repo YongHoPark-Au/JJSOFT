@@ -1,0 +1,23 @@
+{
+    "project": "./tsconfig.json",
+    "extends": [
+      "tslint:latest",
+      "tslint-config-prettier"
+    ],
+    "rules": {
+      "prefer-object-spread": false,
+      "object-literal-sort-keys": false,
+      "no-console": false,
+      "no-submodule-imports" : false,
+      "object-literal-shorthand" : false,
+      "only-arrow-functions" : false,
+      "variable-name": [true,
+        "check-format",
+        "allow-leading-underscore"
+        ],
+      "ordered-imports": [true, {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+        }]
+    }
+}
